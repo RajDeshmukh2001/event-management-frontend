@@ -1,1 +1,1 @@
-# event-management-frontend
+# Event Management System Frontend
