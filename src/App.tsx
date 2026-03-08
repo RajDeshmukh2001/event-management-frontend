@@ -1,10 +1,13 @@
+import { Toaster } from "react-hot-toast";
 import "./App.css";
+import AppRoutes from "./routes/AppRoutes";
 
 const App = (): React.JSX.Element => {
     return (
-        <div>
-            <h1>Event Management System</h1>
-        </div>
+        <>
+            <Toaster />
+            <AppRoutes />
+        </>
     )
 }
 
